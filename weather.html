@@ -1,23 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="cssHeader.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Physics of Black Hole Photography</title>
+    <title>Navigation Bar Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #DBDBDB;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            padding: 0px 0px;
+        }
+        .navbar .logo {
+            color: #fff;
+            font-size: 25px;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .navbar ul li a {
+            display: block;
+            padding: 12px 15px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .navbar ul li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .active{
+            background-color: #04AA6D;
+        }
+
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Physics of Photography</h1>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">InfoPage A</a>
-        <a href="#">Authors</a>
+    <nav class="navbar">
+        <a href="#" class="logo">Black Hole Photography</a>
+        <ul>
+            <li><a class = "active" href="#">Home</a></li>
+            <li><a href="#">Infopage A</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
     </nav>
-    <div class="container">
         <h2>Welcome to Our Website!</h2>
-        <p>This is a simple HTML website template. You can customize it to fit your needs.</p>
+    <p>This is a simple HTML website template. You can customize it to fit your needs.</p>
     </div>
 </body>
 </html>
