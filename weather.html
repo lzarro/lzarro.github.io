@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar Example</title>
+    <title>Responsive Navigation Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #DBDBDB;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
         }
         .navbar {
-            display: flex;
+            display: flex;A
             justify-content: space-between;
             align-items: center;
-            background-color: black;
-            padding: 0px 0px;
+            background-color: #fff;
+            padding: 10px 20px;
         }
         .navbar .logo {
-            color: #fff;
-            font-size: 25px;
+            color: #000;
+            font-size: 24px;
             text-decoration: none;
-            margin-left: 10px;
         }
         .navbar ul {
             list-style: none;
@@ -32,32 +36,35 @@
             margin-left: 20px;
         }
         .navbar ul li a {
-            display: block;
-            padding: 12px 15px;
-            color: #fff;
+            color: #000;
             text-decoration: none;
             font-size: 18px;
+            padding: 10px 15px;
         }
-        .navbar ul li a:hover:not(.active) {
-            background-color: #111;
+        .navbar ul li a:hover, .navbar ul li a.active {
+            background-color: #32CD32; /* Light green color */
+            color: #fff;
+            border-radius: 4px;
         }
-        .active{
-            background-color: #04AA6D;
+        @media (max-width: 600px) {
+            .navbar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar ul li {
+                margin: 10px 0;
+            }
         }
-
     </style>
 </head>
 <body>
     <nav class="navbar">
         <a href="#" class="logo">Black Hole Photography</a>
         <ul>
-            <li><a class = "active" href="#">Home</a></li>
-            <li><a href="#">Infopage A</a></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Infopage</a></li>
             <li><a href="#">About</a></li>
         </ul>
     </nav>
-        <h2>Welcome to Our Website!</h2>
-    <p>This is a simple HTML website template. You can customize it to fit your needs.</p>
-    </div>
 </body>
 </html>
