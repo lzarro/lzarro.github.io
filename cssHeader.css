@@ -69,12 +69,24 @@ h2{
   padding: 50px 100px;
 }
 
+.mainDiv ul li{
+  margin: 50px 100px;
+}
+
 .question {
   text-emphasis: filled double-circle #32CD32;
   font-style: italic;
   text-align: center;
   
 }
+
+.caption {
+  text-emphasis: filled #32CD32;
+  font-style: italic;
+  text-align: center;
+  margin-top: -100px; 
+}
+
 .button-container {
   display: flex;
   justify-content: flex-end;
@@ -100,3 +112,49 @@ h2{
 .rounded-button:hover {
   background-color: #134e13;
 }
+
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+  flex: 1 0 auto;
+  object-fit: cover;
+  position: relative;
+}
+
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.5);
+  color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-button-prev {
+  left: 0;
+}
+
+.carousel-button-next {
+  right: 0;
+}
+
