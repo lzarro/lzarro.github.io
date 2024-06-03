@@ -6,7 +6,7 @@ body {
     color: #fff;
 }
 .navbar {
-    display: flex;A
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
@@ -53,13 +53,50 @@ h1 {
 }
 h2{
     font-weight: bold;
-    color #fff;
+    color: #fff;
     font-size: 40px;
 }
 .rightAlign{
     text-align: right;
 }
+
 .tableMargin{
     margin-left: 50px;
     margin-top: -10px;
+}
+
+.mainDiv p{
+  padding: 50px 100px;
+}
+
+.question {
+  text-emphasis: filled double-circle #32CD32;
+  font-style: italic;
+  text-align: center;
+  
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.rounded-button {
+  background-color: #32CD32;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.rounded-button:hover {
+  background-color: #134e13;
 }
