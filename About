@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cssHeader.css">
+</head>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Black Hole Photography</a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="photography.html">Infared Photography</a></li>
+            <li><a href="algorithm.html" class="active">Black Hole Algorithm</a></li>
+            <li><a href="blackhole.html">Black Holes</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <h1>Definitions</h1>
+          </div>     
+      <ul>
+        <li><strong>Supernova:</strong> the dramatic explosion in which stars will end thier life cycles
+        <li><strong>Black Hole:</strong> region in space that is so strong, not even light can escape it's gravitational pull
+        <li><strong>CHIRP (Continuous High-resolution Image Reconstruction using Patch priors)</strong> the progrom created by Dr. Bouman to create the black hole image
+        <li><strong>Algorithm:</strong> a process or set of rules used to solve problems
+        <li><strong>Infrared Light:</strong> Everything emits a certain amount of infrared light, also known as heat radiation, based on its temperature. Even objects that appear dark or invisible in visible light emit infrared light.</li>
+        <li><strong>Infrared Sensor:</strong> Infrared cameras use special sensors that can detect infrared light. These sensors are sensitive to a range of wavelengths beyond what the human eye can see, allowing them to capture images in the infrared spectrum.</li>
+        <li><strong>Image Capture:</strong> When you take a photo with an infrared camera, the sensor records the infrared light emitted by the objects in the scene. Areas that are warmer emit more infrared light and appear brighter in the image, while cooler areas emit less and appear darker.</li>
+        <li><strong>Filters:</strong> Infrared photography often uses filters to block out visible light and only allow infrared light to pass through to the sensor. This helps to enhance the contrast and clarity of the infrared image.</li>
+        <li><strong>Processing:</strong> After the image is captured, it may undergo some processing to adjust the colors and contrast to make the infrared features more visible and to create a final image that is easy to interpret.</li>
+    
+      </ul>
+        
+    </div>
+
+ <h1>Works Cited</h1>
+<p>The Editors of Encyclopedia Britannica. (2018). black hole | Definition, Formation, & Facts. In Encyclopædia Britannica. https://www.britannica.com/science/black-hole\n
+Gupta, Y. (2024, January 2). Explaining Infrared Colors in IR Photography. Shotkit. https://shotkit.com/infrared-colors/#:~:text=Natural%20Elements%20and%20Their%20Infrared%20Appearance%3A\n
+Webb Space Telescope. (2023). Infrared Astronomy. WebbTelescope.org. https://webbtelescope.org/webb-science/the-observatory/infrared-astronomy\n
+The Extraordinary World of IR Photography - Kolari Vision. (2017, July 16). https://kolarivision.com/what-is-infrared-photography/#:~:text=An%20infrared%20photography%20camera%20is
+
+‌</p>
+
+  
+</body>
+</html>
